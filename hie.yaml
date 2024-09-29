@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:jsonparse"
+
+    - path: "app/Main.hs"
+      component: "jsonparse:exe:jsonparse"
+
+    - path: "test"
+      component: "jsonparse:test:jsonparse-test"
